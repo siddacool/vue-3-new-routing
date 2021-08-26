@@ -1,4 +1,8 @@
 <template>
-  <el-menu class="app-bar" mode="horizontal">App</el-menu>
+  <TopBar />
   <main><router-view /></main>
 </template>
+
+<script setup lang="ts">
+import TopBar from '~/components/TopBar.vue';
+</script>
