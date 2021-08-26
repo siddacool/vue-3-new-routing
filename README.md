@@ -1,3 +1,3 @@
-# Vue 3 + Typescript + Vite
+# Vue admin panel / new way of routing
 
 https://github.com/antfu/vitesse
