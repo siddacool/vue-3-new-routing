@@ -1,10 +1,6 @@
 <template>
-  <MasterLayout><router-view /></MasterLayout>
+  <router-view />
 </template>
-
-<script setup lang="ts">
-import MasterLayout from '~/layouts/Master.vue';
-</script>
 
 <style>
 * {
