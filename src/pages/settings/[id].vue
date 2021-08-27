@@ -1,4 +1,4 @@
-<template>{{ route.params.name }}</template>
+<template>Settings {{ route.params.id }}</template>
 
 <script setup lang="ts">
 import { useRoute } from 'vue-router';

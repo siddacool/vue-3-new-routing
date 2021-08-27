@@ -1,4 +1,4 @@
 <template>
   <main><router-view /></main>
-  [[ general ]]
+  [[ auth ]]
 </template>

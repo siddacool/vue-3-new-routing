@@ -2,8 +2,9 @@ import { createApp } from 'vue';
 import { createRouter, createWebHistory } from 'vue-router';
 import generatedRoutes from 'virtual:generated-pages';
 import { setupLayouts } from 'virtual:generated-layouts';
-import 'element-plus/dist/index.css';
 import App from '~/App.vue';
+import { ElMenu, ElInput } from 'element-plus';
+const elemElement = [ElMenu, ElInput];
 
 const app = createApp(App);
 
@@ -15,4 +16,8 @@ const router = createRouter({
 });
 
 app.use(router);
+
+elemElement.forEach((elm) => {
+  app.use(elm);
+});
 app.mount('#app');
